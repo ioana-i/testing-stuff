@@ -1,0 +1,50 @@
+/* General */
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #ce2fa4;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left-nav {
+  display: flex;
+  gap: 10px;
+}
+
+.right-nav {
+  display: flex;
+  gap: 15px;
+}
+
+/* Hero */
+.hero-section {
+  background-color: aquamarine;
+  width: 100%;
+  height: 350px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-ul {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  margin-top: 20px;
+}
